@@ -20,11 +20,12 @@ class IronManView(TemplateView):
     template_name = "hero.html"
 
     def get_context_data(self, **kwargs):
-        return {
+        data = {
             'title': 'Iron Man',
             'body': 'My name is Tony Stark, but I am Iron Man',
             'image': '/static/images/iron_man.jpg'
         }
+        return data
 
 
 class BlackWidow(TemplateView):

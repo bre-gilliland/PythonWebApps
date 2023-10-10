@@ -5,13 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "My server",
+            "name": "My 03",
             "type": "python",
             "request": "launch",
             "program": "manage.py",
-            "cwd": "${workspaceFolder}/Superhero",
+            "cwd": "${workspaceFolder}/03/Superhero",
             "args": [
-                "runserver"
+                "runserver",
+                '8003'
             ],
             "django": true,
             "justMyCode": true

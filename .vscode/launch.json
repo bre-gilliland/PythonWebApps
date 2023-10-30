@@ -9,10 +9,9 @@
             "type": "python",
             "request": "launch",
             "program": "manage.py",
-            "cwd": "${workspaceFolder}/03/Superhero",
+            "cwd": "${workspaceFolder}/Student/03/Superhero",
             "args": [
-                "runserver",
-                '8000'
+                "runserver"
             ],
             "django": true,
             "justMyCode": true

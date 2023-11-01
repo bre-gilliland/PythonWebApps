@@ -36,6 +36,24 @@ class BlackWidow(TemplateView):
             'title': 'Black Widow',
             'body': 'My name is Natasha Romanova',
             'image': '/static/images/black_widow.jpg'
+
+class SpiderManTemplateView):
+    template_name = 'hero.html'
+
+    def get_context_data(self, **kwargs):
+        return {
+            'title': 'Spiderman',
+            'body': 'My name is Peter Parker',
+            'image': '/static/images/spiderman.jpg'
+
+class The Flash(TemplateView):
+    template_name = 'hero.html'
+
+    def get_context_data(self, **kwargs):
+        return {
+            'title': 'The Flask',
+            'body': 'My name is The Flash',
+            'image': '/static/images/theflash.jpg'
         }
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView

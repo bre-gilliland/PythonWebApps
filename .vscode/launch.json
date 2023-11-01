@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "manage.py",
-            "cwd": "${workspaceFolder}/Student/03/Superhero",
+            "cwd": "${workspaceFolder}/Student/06/Blog",
             "args": [
                 "runserver"
             ],

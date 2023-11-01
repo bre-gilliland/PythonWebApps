@@ -32,7 +32,7 @@ services:
   instance_size_slug: basic-xxs
   name: profile-app
   run_command: gunicorn --worker-tmp-dir /dev/shm config.wsgi
-  source_dir: Student/04/Gallery
+  source_dir: Student/Notepad
 static_sites:
 - environment_slug: html
   github:
@@ -40,4 +40,4 @@ static_sites:
     deploy_on_push: true
     repo: bre-gilliland/PythonWebApps
   name: profile-app-static
-  source_dir: Student/04/Gallery/static
+  source_dir: Student/Notepad/static

@@ -15,3 +15,12 @@ class HeroDetailView(DetailView):
 class HeroCreateView(CreateView):
     template_name = "hero/add.html"
     model = Superhero
+    fields = '__all__'
+
+class HeroUpdateView(UpdateView):
+    template_name = "hero/edit.html"
+    model = Superhero
+    fields = '__all__'
+
+class HeroDeleteView(DeleteView):
+    model = Superhero
